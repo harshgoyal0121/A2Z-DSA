@@ -3,7 +3,7 @@
 using namespace std;
 
 int main(){
-    
+
     int age;
     cout<<"Enter the age of that person: "<<endl;
     cin>> age;
@@ -12,7 +12,7 @@ int main(){
         cout<<"Not an adult"<<endl;
         cin.ignore();
     }
-    else if(age>18){
+    else if(age>=18){
         cout<<"He is an adult"<<endl;
     }
     else{
